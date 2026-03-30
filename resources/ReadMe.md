@@ -42,6 +42,8 @@ environment](https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMConte
 - Note for use as we work on equity: As equity is rooted in "the spirit and the habit of fairness, justness, and right dealing which would regulate the intercourse of men with men,—the rule doing to all others as we desire them to do to us; or as it is expressed by Justinian, 'to live honestly, to harm nobody, to render every man his due [sic]…" it is therefore the synonym of natural right or justice, in this sense its obligation is ethical rather than jural, and its discussion belongs to the sphere of morals. [Pugh, Darrell L., “The Origins of Ethical Frameworks in Public Administration”, in
 Ethical Frontiers in Public Management: Seeking New Strategies for Resolving
 Ethical Dilemmas, James S. Bowmen, Editor, Jossey-Bass Publishers, San Francisco,
+
+[Human rights and technical standard-setting for the Web](https://cdt.org/wp-content/uploads/2023/03/human-rights-web-standards.html)
 1991.]
 
 - [Northwestern University, Kellogg School, Equity Essentials](https://www.kellogg.northwestern.edu/executive-education/individual-programs/nonprofit-programs/equity-essentials.aspx)
