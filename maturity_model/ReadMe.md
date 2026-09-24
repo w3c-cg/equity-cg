@@ -14,9 +14,9 @@ More details in 2.1 Maturity Levels
 <table>
 <thead>
   <tr>
-    <th style="text-align: left">Tier&nbsp;/&nbsp;Stage</th>
-    <th style="text-align: left">Focus&nbsp;&amp;&nbsp;Approach</th>
-    <th style="text-align: left">Characteristics &amp; Execution</th>
+    <th align="left">Tier&nbsp;/&nbsp;Stage</th>
+    <th align="left">Focus&nbsp;&amp;&nbsp;Approach</th>
+    <th align="left">Characteristics &amp; Execution</th>
   </tr>
 </thead>
 <tbody>
