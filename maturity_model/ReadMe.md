@@ -21,7 +21,7 @@ More details in 2.1 Maturity Levels
 </thead>
 <tbody>
   <tr>
-    <td>1. Inactive</td>
+    <td>1.&nbsp;Inactive</td>
     <td>Unaware / Overlooked</td>
     <td>
       <ul>
@@ -31,7 +31,7 @@ More details in 2.1 Maturity Levels
     </td>
   </tr>
   <tr>
-    <td>2. Developing</td>
+    <td>2.&nbsp;Developing</td>
     <td>Ad-hoc &amp; Reactive</td>
     <td>
       <ul>
@@ -42,7 +42,7 @@ More details in 2.1 Maturity Levels
     </td>
   </tr>
   <tr>
-    <td>3. Integrating</td>
+    <td>3.&nbsp;Integrating</td>
     <td>Consistent &amp; Planned</td>
     <td>
       <ul>
@@ -53,7 +53,7 @@ More details in 2.1 Maturity Levels
     </td>
   </tr>
   <tr>
-    <td>4. Optimizing</td>
+    <td>4.&nbsp;Optimizing</td>
     <td>Continuous Improvement</td>
     <td>
       <ul>
