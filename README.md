@@ -4,10 +4,10 @@ Public Site: [Equity Community Group](https://www.w3.org/community/equity/)
 
 ## To Do
 
-- Collect [definitions of equity](https://github.com/w3c-cg/equity-cg/tree/main/definition-work)
-- Define equity for proposed use in W3C work
-- Collect [equity framework/assessment, guidance, and training](https://github.com/w3c-cg/equity-cg/tree/main/resources)
-- *In Progress* Evolve the Accessibility Maturity Model for Equity
+- Done - Collect [definitions of equity](https://github.com/w3c-cg/equity-cg/tree/main/definition-work)
+- Done - Define equity for proposed use in W3C work
+- Done - Collect [equity framework/assessment, guidance, and training](https://github.com/w3c-cg/equity-cg/tree/main/resources)
+- Done -  Evolve the Accessibility Maturity Model for Equity
 - Document equity considerations and practices that deliver equal outcomes
 
 ## Draft Working Agreements
@@ -26,3 +26,5 @@ Public Site: [Equity Community Group](https://www.w3.org/community/equity/)
 ## Table of Contents
 - [Definition Work](https://github.com/w3c-cg/equity-cg/tree/main/definition-work)
 - [Resources - equity framework examples and education materials](https://github.com/w3c-cg/equity-cg/tree/main/resources)
+- [Draft Maturity Model](https://github.com/w3c-cg/equity-cg/tree/main/maturity_model)
+- [Meeting Minutes](https://github.com/w3c-cg/equity-cg/tree/main/meetings)
