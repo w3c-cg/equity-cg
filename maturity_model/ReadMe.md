@@ -11,18 +11,18 @@ The EMM provides actionable guidance for establishing, evaluating, and/or improv
 #### Table 1. Equity Maturity Model Tiers
 More details in 2.1 Maturity Levels
 
-<table>
+<table style="text-align: left">
 <thead>
   <tr>
-    <th>Tier / Stage</th>
-    <th>Focus &amp; Approach</th>
+    <th>Tier&nbsp;/&nbsp;Stage</th>
+    <th>Focus&nbsp;&amp;&nbsp;Approach</th>
     <th>Characteristics &amp; Execution</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>1.&nbsp;Inactive</td>
-    <td>Unaware / Overlooked</td>
+    <td>Unaware&nbsp;/&nbsp;Overlooked</td>
     <td>
       <ul>
         <li>Little to no awareness of equity needs, or these needs are consciously overlooked.</li>
@@ -32,7 +32,7 @@ More details in 2.1 Maturity Levels
   </tr>
   <tr>
     <td>2.&nbsp;Developing</td>
-    <td>Ad-hoc &amp; Reactive</td>
+    <td>Ad-hoc&nbsp;&amp;&nbsp;Reactive</td>
     <td>
       <ul>
         <li>Recognizes the need for equity and has initiated initial planning.</li>
@@ -43,7 +43,7 @@ More details in 2.1 Maturity Levels
   </tr>
   <tr>
     <td>3.&nbsp;Integrating</td>
-    <td>Consistent &amp; Planned</td>
+    <td>Consistent&nbsp;&amp;&nbsp;Planned</td>
     <td>
       <ul>
         <li>An overall approach and defined roadmap are established.</li>
@@ -54,7 +54,7 @@ More details in 2.1 Maturity Levels
   </tr>
   <tr>
     <td>4.&nbsp;Optimizing</td>
-    <td>Continuous Improvement</td>
+    <td>Continuous&nbsp;Improvement</td>
     <td>
       <ul>
         <li>Equity is fully embedded into organizational culture and treated as a standard operational practice.</li>
