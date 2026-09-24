@@ -14,7 +14,7 @@ Public Site: [Equity Community Group](https://www.w3.org/community/equity/)
 
 - Use Github for public documentation
 - Use Google Drive docs for collaboration
-- Use IRC for minuting
+- Use Google Doc for minuting
 - Be open about our biases and our company’s biases
 - Address the potential ‘elephants in the room’ such as large companies, overlay companies, geography
 - Actively seek out diverse perspectives, encourage to join the CG
