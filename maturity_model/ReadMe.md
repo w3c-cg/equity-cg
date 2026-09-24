@@ -133,8 +133,7 @@ The EMM takes inspiration from the structural framework of the W3C Accessibility
 **Description:** This dimension focuses on the “shift-left” methodology, integrating accessibility, equity, privacy, safety, and sustainability into the initial design and development phases. It aims to build resilient infrastructure and foster innovation that is inclusive (<a href="#UN2015">UN, 2015</a>).
 
 #### Figure 1 - ICT Development Lifecycle
-
-[image to come]
+<img src="https://github.com/w3c-cg/equity-cg/blob/main/maturity_model/emm_fig1.png" alt="Life cycle diagram with seven sections: plan, analyze, design, develop, test & evaluate, iterate, and retire. Each has a two-way arrow linking it to the sections either side. 'Retire' also has a second arrow pointing off to an unspecified direction.">
 
 #### Proof Points
 - Implementation of quality governance to manage the complexity of guidelines like Internationalization, Privacy, and Security (SDGs 9 and 16, <a href="#UN2015">UN, 2015</a>)).
