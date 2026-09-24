@@ -176,7 +176,7 @@ The EMM takes inspiration from the structural framework of the W3C Accessibility
 - Determine what equity maturity level your proof point documentation supports for culture.
 
 ### 3.5 Personnel
-**Description:** This dimension focuses on targeted recruiting and accessible application platforms to ensure “Decent Work and Economic Growth” (<a href="#UN2015">UN, 2015</a>; W3C, 2024).
+**Description:** This dimension focuses on targeted recruiting and accessible application platforms to ensure “Decent Work and Economic Growth” (<a href="#UN2015">UN, 2015</a>; <a href="#W3CAMM">W3C, 2025</a>).
 
 #### Proof Points
 - Audits to ensure “Equal Pay for Work of Equal Value” to eliminate demographic  pay gaps (<a href="#UN2015">UN, 2015</a>).
@@ -192,11 +192,11 @@ The EMM takes inspiration from the structural framework of the W3C Accessibility
 
 #### Proof Points
 - Policies that prioritize “Partnerships for the Goals” (SDG 17) by selecting suppliers that adhere to sustainable and ethical practices (<a href="#UN2015">UN, 2015</a>).
-- Alignment on key definitions that uphold and promote human rights as outlined in the UN Guiding Principles on Business and Human Rights (UNGPs) (OHCHR, 2011).
+- Alignment on key definitions that uphold and promote human rights as outlined in the UN Guiding Principles on Business and Human Rights (UNGPs) (<a href="#ohchr2011">OHCHR, 2011</a>).
 - Evaluation of third-party tools for privacy and security compliance.
 
 #### Technical & Equity Framework Alignment
-- **W3C Technical Rule:** W3C Web Sustainability Guidelines (WSG 1.0) (W3C WSG, 2025) & Voluntary Product Accessibility Template (VPAT) / Accessibility Conformance Report (ACR) Verification.
+- **W3C Technical Rule:** W3C Web Sustainability Guidelines (WSG 1.0) (<a href="#wsg">W3C, 2025</a>) & Voluntary Product Accessibility Template (VPAT) / Accessibility Conformance Report (ACR) Verification.
 - **Paired Equity Framework:** UN SDG 17 (Partnerships for the Goals) (<a href="#UN2015">UN, 2015</a>) & UNGPs Supply Chain Human Rights Due Diligence (<a href="#ohchr2012">OHCHR, 2012</a>).
 - WSG 1.0 and ACRs technically evaluate vendor code efficiency and compliance; UNGP assessments audit vendor labor practices, data privacy compliance, and supply chain environmental footprints.
 
@@ -205,7 +205,7 @@ The EMM takes inspiration from the structural framework of the W3C Accessibility
 
 #### Proof Points
 - Mechanisms to report and detect trafficking or exploitation, supporting justice for all (<a href="#UN2015">UN, 2015</a>).
-- Reporting and grievance processes that are effective and fully usable by the widest range of users possible, including children as relevant (<a href="#W3CAMM">W3C AMM, 2025</a>; General comment No. 25 (2021) on children’s rights in relation to the digital environment, 02 March 2021, CRC/C/GC/25) (<em>CITATION?</em>.
+- Reporting and grievance processes that are effective and fully usable by the widest range of users possible, including children as relevant (<a href="#W3CAMM">W3C AMM, 2025</a>; General comment No. 25 (2021) on children’s rights in relation to the digital environment, 02 March 2021, CRC/C/GC/25) (<em>CITATION?</em>).
 - Publicly transparent reporting on the organization’s environmental footprint and social impact (<a href="#UN2015">UN, 2015</a>).
 
 #### Technical & Equity Framework Alignment
@@ -262,24 +262,24 @@ Long-term sustainability of equity initiatives requires tying organizational tar
   <li id="UN1948>United Nations. General Assembly. (1948). Universal Declaration of Human Rights (A/RES/217(III) A). <a href="https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf" target="_blank" rel="noopener">https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf</a></li>
   <li id="UN2006">United Nations. (2006). Convention on the Rights of Persons with Disabilities (Treaty Series, vol. 2515, p. 3). <a target="_blank" rel="noopener" href="https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities">https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities</a></li>
   <li id="UN1989">United Nations. (1989). Convention on the Rights of the Child (Treaty Series, vol. 1577, p. 3). <a target="_blank" rel="noopener" href="https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child">https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child</a></li>
-  <li id="W3CAMM">World Wide Web Consortium. (2025). W3C Accessibility Maturity Model.<a target="_blank" rel="noopener" href="https://www.w3.org/TR/maturity-model/">https://www.w3.org/TR/maturity-model/</a></li>
-  <li id="NACE">National Association of Colleges and Employers. (n.d.). Equity definition.<a target="_blank" rel="noopener" href="https://www.naceweb.org/about-us/equity-definition/">https://www.naceweb.org/about-us/equity-definition/</a></li>
-  <li id="i18n">World Wide Web Consortium. (2024). Internationalization (I18n) activity.<a target="_blank" rel="noopener" href="https://www.w3.org/International/">https://www.w3.org/International/</a></li>
-  <li id="ping">World Wide Web Consortium. (n.d.-a). W3C Privacy Interest Group (PING).<a target="_blank" rel="noopener" href="https://www.w3.org/2019/09/privacy-ig-charter.html">https://www.w3.org/2019/09/privacy-ig-charter.html</a></li>
-  <li id="wsig">World Wide Web Consortium. (n.d.-b). W3C Web Security Interest Group.<a target="_blank" rel="noopener" href="https://www.w3.org/Security/wiki/IG">https://www.w3.org/Security/wiki/IG</a></li>
+  <li id="W3CAMM">World Wide Web Consortium. (2025). W3C Accessibility Maturity Model. <a target="_blank" rel="noopener" href="https://www.w3.org/TR/maturity-model/">https://www.w3.org/TR/maturity-model/</a></li>
+  <li id="NACE">National Association of Colleges and Employers. (n.d.). Equity definition. <a target="_blank" rel="noopener" href="https://www.naceweb.org/about-us/equity-definition/">https://www.naceweb.org/about-us/equity-definition/</a></li>
+  <li id="i18n">World Wide Web Consortium. (2024). Internationalization (I18n) activity. <a target="_blank" rel="noopener" href="https://www.w3.org/International/">https://www.w3.org/International/</a></li>
+  <li id="ping">World Wide Web Consortium. (n.d.-a). W3C Privacy Interest Group (PING). <a target="_blank" rel="noopener" href="https://www.w3.org/2019/09/privacy-ig-charter.html">https://www.w3.org/2019/09/privacy-ig-charter.html</a></li>
+  <li id="wsig">World Wide Web Consortium. (n.d.-b). W3C Web Security Interest Group. <a target="_blank" rel="noopener" href="https://www.w3.org/Security/wiki/IG">https://www.w3.org/Security/wiki/IG</a></li>
   <li id="wsg">World Wide Web Consortium. (2026). Web Sustainability Guidelines (WSG) <a target="_blank" rel="noopener" href="https://www.w3.org/TR/web-sustainability-guidelines/">https://www.w3.org/TR/web-sustainability-guidelines/</a></li>
-  <li id="webperf">World Wide Web Consortium. (n.d.-c). Web Performance Working Group.<a target="_blank" rel="noopener" href="https://www.w3.org/groups/wg/webperf/">https://www.w3.org/groups/wg/webperf/</a></li>
-  <li id="UN2015">United Nations. General Assembly. (2015). Transforming our world: The 2030 Agenda for Sustainable Development (A/RES/70/1).<a target="_blank" rel="noopener" href="https://sdgs.un.org/2030agenda">https://sdgs.un.org/2030agenda</a></li>
+  <li id="webperf">World Wide Web Consortium. (n.d.-c). Web Performance Working Group. <a target="_blank" rel="noopener" href="https://www.w3.org/groups/wg/webperf/">https://www.w3.org/groups/wg/webperf/</a></li>
+  <li id="UN2015">United Nations. General Assembly. (2015). Transforming our world: The 2030 Agenda for Sustainable Development (A/RES/70/1). <a target="_blank" rel="noopener" href="https://sdgs.un.org/2030agenda">https://sdgs.un.org/2030agenda</a></li>
   <li id="ieee2022">Institute of Electrical and Electronics Engineers. (2022). IEEE standard for data privacy process (IEEE Std 7002-2022). IEEE. <a target="_blank" rel="noopener" href="https://standards.ieee.org/ieee/7002/6898/">https://standards.ieee.org/ieee/7002/6898/</a></li>
-  <li id="iso2024">International Organization for Standardization, & International Electrotechnical Commission. (2024). Information technology — Security techniques — Privacy framework (ISO/IEC Standard No. 29100:2024). ISO.<a target="_blank" rel="noopener" href="https://www.iso.org/standard/85938.html">https://www.iso.org/standard/85938.html</a></li>
-  <li id="wcag22">World Wide Web Consortium. (2023, October 5). Web content accessibility guidelines (WCAG) 2.2 (W3C Recommendation).<a target="_blank" rel="noopener" href="https://www.w3.org/TR/WCAG22/">https://www.w3.org/TR/WCAG22/</a></li>
-  <li id="i18n_mission">World Wide Web Consortium. (n.d.). Internationalization | Our mission.<a target="_blank" rel="noopener" href="https://www.w3.org/mission/internationalization/">https://www.w3.org/mission/internationalization/</a></li>
-  <li id="ping2025">World Wide Web Consortium. (2025, May 15). Privacy principles (W3C Group Note).<a target="_blank" rel="noopener" href="https://www.w3.org/TR/privacy-principles/">https://www.w3.org/TR/privacy-principles/</a></li>
+  <li id="iso2024">International Organization for Standardization, & International Electrotechnical Commission. (2024). Information technology — Security techniques — Privacy framework (ISO/IEC Standard No. 29100:2024). ISO. <a target="_blank" rel="noopener" href="https://www.iso.org/standard/85938.html">https://www.iso.org/standard/85938.html</a></li>
+  <li id="wcag22">World Wide Web Consortium. (2023, October 5). Web content accessibility guidelines (WCAG) 2.2 (W3C Recommendation). <a target="_blank" rel="noopener" href="https://www.w3.org/TR/WCAG22/">https://www.w3.org/TR/WCAG22/</a></li>
+  <li id="i18n_mission">World Wide Web Consortium. (n.d.). Internationalization | Our mission. <a target="_blank" rel="noopener" href="https://www.w3.org/mission/internationalization/">https://www.w3.org/mission/internationalization/</a></li>
+  <li id="ping2025">World Wide Web Consortium. (2025, May 15). Privacy principles (W3C Group Note). <a target="_blank" rel="noopener" href="https://www.w3.org/TR/privacy-principles/">https://www.w3.org/TR/privacy-principles/</a></li>
   <li id="w3c_security">World Wide Web Consortium. (n.d.). Security activity. <a target="_blank" rel="noopener" href="https://www.w3.org/Security/">https://www.w3.org/Security/</a></li>
-  <li id="w3c2026_webnn">Worldwide Web Consortium. (2026, August 13). Web neural network API (W3C Candidate Recommendation Draft).<a target="_blank" rel="noopener" href="https://www.w3.org/TR/webnn/">https://www.w3.org/TR/webnn/</a></li>
-  <li id="djl2019">Dencik, L., Hintz, A., Redden, J., & Treré, E. (2019). Data justice: An international framework for policy and practice. Data Justice Lab, Cardiff University.<a target="_blank" rel="noopener" href="https://datajusticelab.org/data-justice-framework/">https://datajusticelab.org/data-justice-framework/</a></li>
-  <li id="arXiv2022">Leslie, D., Burr, C., Aitken, M., Katell, M., Briggs, M., & Rincon, C. (2022). Human rights, democracy, and the rule of law assurance framework for AI systems: A proposal. arXiv.<a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2202.02776">https://doi.org/10.48550/arXiv.2202.02776</a></li>
-  <li id="berj2007">Lundy, L. (2007). ‘Voice’ is not enough: Conceptualising Article 12 of the United Nations Convention on the Rights of the Child. British Educational Research Journal, 33(6), 927–942.<a target="_blank" rel="noopener" href="https://doi.org/10.1080/01411920701657033">https://doi.org/10.1080/01411920701657033</a></li>
+  <li id="w3c2026_webnn">Worldwide Web Consortium. (2026, August 13). Web neural network API (W3C Candidate Recommendation Draft). <a target="_blank" rel="noopener" href="https://www.w3.org/TR/webnn/">https://www.w3.org/TR/webnn/</a></li>
+  <li id="djl2019">Dencik, L., Hintz, A., Redden, J., & Treré, E. (2019). Data justice: An international framework for policy and practice. Data Justice Lab, Cardiff University. <a target="_blank" rel="noopener" href="https://datajusticelab.org/data-justice-framework/">https://datajusticelab.org/data-justice-framework/</a></li>
+  <li id="arXiv2022">Leslie, D., Burr, C., Aitken, M., Katell, M., Briggs, M., & Rincon, C. (2022). Human rights, democracy, and the rule of law assurance framework for AI systems: A proposal. arXiv. <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2202.02776">https://doi.org/10.48550/arXiv.2202.02776</a></li>
+  <li id="berj2007">Lundy, L. (2007). ‘Voice’ is not enough: Conceptualising Article 12 of the United Nations Convention on the Rights of the Child. British Educational Research Journal, 33(6), 927–942. <a target="_blank" rel="noopener" href="https://doi.org/10.1080/01411920701657033">https://doi.org/10.1080/01411920701657033</a></li>
   <li id="ohchr2011">United Nations Office of the High Commissioner for Human Rights. (2011). Guiding principles on business and human rights: Implementing the United Nations “Protect, Respect and Remedy” framework (HR/PUB/11/04). United Nations. <a target="_blank" rel="noopener" href="https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf">https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf</a></li>
   <li id="eo14035">Exec. Order No. 14035, 3 C.F.R. 287 (2021). <a target="_blank" rel="noopener" href="https://www.federalregister.gov/documents/2021/06/30/2021-14127/diversity-equity-inclusion-and-accessibility-in-the-federal-workforce">https://www.federalregister.gov/documents/2021/06/30/2021-14127/diversity-equity-inclusion-and-accessibility-in-the-federal-workforce</a></li>
   <li id="ohchr2012">United Nations Office of the High Commissioner for Human Rights. (2012). The corporate responsibility to respect human rights: An interpretive guide (HR/PUB/12/02). United Nations. <a target="_blank" rel="noopener" href="https://www.ohchr.org/sites/default/files/Documents/Publications/HR.PUB.12.2_En.pdf">https://www.ohchr.org/sites/default/files/Documents/Publications/HR.PUB.12.2_En.pdf</a></li>
