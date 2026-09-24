@@ -128,7 +128,7 @@ The EMM takes inspiration from the structural framework of the W3C Accessibility
 - **W3C Technical Rules:** W3C Web Content Accessibility Guidelines (<a href="#wcag22">WCAG 2.2, World Wide Web Consortium, 2023</a>) and Internationalization (I18n) Guidelines (<a href="#i18n_mission">W3C, n.d.</a>).
 - **Paired Equity Framework:** UN Convention on the Rights of Persons with Disabilities (CRPD) (<a href="#UN2006">UN, 2006</a>) & UN SDG 10 (Reduced Inequalities) (<a href="#UN2015">UN, 2015</a>).
 - WCAG and I18n standards specify mechanics like screen reader accessibility, bidirectional text, and character encoding. Human Rights Impact Assessments (HRIAs) evaluate whether non-dominant language speakers or disabled users face degraded user experiences or exclusion from public information.
-- 
+
 ### 3.2 ICT Development Lifecycle 
 **Description:** This dimension focuses on the “shift-left” methodology, integrating accessibility, equity, privacy, safety, and sustainability into the initial design and development phases. It aims to build resilient infrastructure and foster innovation that is inclusive (<a href="#UN2015">UN, 2015</a>).
 
