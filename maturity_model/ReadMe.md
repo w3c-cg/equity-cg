@@ -286,3 +286,6 @@ Long-term sustainability of equity initiatives requires tying organizational tar
 </ul>
 
 
+## Bibliography
+
+To draft this EMM the group reviewed a lengthy list of equity resources. The full list is available at [https://github.com/w3c-cg/equity-cg/tree/main/resources](https://github.com/w3c-cg/equity-cg/tree/main/resources).
