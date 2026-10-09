@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en-us">
+ <head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>W3C Equity Community Group - TPAC 2026 Presentation</title>
+  <meta name="description" content="W3C Equity Community Group Presentation on the Draft Equity Maturity Model (EMM) at TPAC 2026">
+<style>
+  :root {
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    --color-slate-900: #0f172a;
+    --color-slate-800: #1e293b;
+    --color-slate-700: #334155;
+    --color-slate-600: #475569;
+    --color-slate-300: #cbd5e1;
+    --color-slate-200: #e2e8f0;
+    --color-slate-100: #f1f5f9;
+    --color-slate-50: #f8fafc;
+    --color-blue-800: #075985;
+    --color-blue-700: #0369a1;
+    --color-blue-600: #0284c7;
+    --color-blue-500: #38bdf8;
+    --color-blue-100: #e0f2fe;
+    --color-teal-600: #0d9488;
+    --color-teal-100: #ccfbf1;
+    --color-amber-600: #d97706;
+    --color-amber-100: #fef3c7;
+    --color-purple-600: #9333ea;
+    --color-purple-100: #f3e8ff;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-slate-900);
+    color: var(--color-slate-900);
+    line-height: 1.5;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    font-size: 20px;
+  }
+
+  .slide {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1100px;
+    min-height: 620px;
+    border-radius: 12px;
+    padding: 3rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+  }
+
+  .slide.darkmode {
+    background-color: var(--color-slate-900);
+    color: #ffffff;
+  }
+
+  .slide-header {
+    margin-bottom: 2rem;
+  }
+
+  .slide-eyebrow {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-blue-600);
+    margin-bottom: 0.5rem;
+  }
+
+  .slide.darkmode .slide-eyebrow {
+    color: var(--color-blue-500);
+  }
+
+  .slide-title {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--color-slate-900);
+  }
+
+  .slide.darkmode .slide-title {
+    color: #ffffff;
+  }
+
+  .slide-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .slide-footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-slate-200);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: var(--color-slate-700);
+  }
+
+  .slide.darkmode .slide-footer {
+    border-top-color: var(--color-slate-800);
+    color: var(--color-slate-300);
+  }
+
+  a {
+    color: var(--color-blue-600);
+    text-decoration: underline;
+    font-weight: 600;
+  }
+
+  .slide.darkmode a {
+    color: var(--color-blue-500);
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+    width: 100%;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+    width: 100%;
+  }
+
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+    align-items: start;
+    width: 100%;
+  }
+
+  .card {
+    background-color: var(--color-slate-50);
+    border: 1px solid var(--color-slate-200);
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .slide.darkmode .card {
+    background-color: var(--color-slate-800);
+    border-color: var(--color-slate-700);
+  }
+
+  .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-slate-900);
+  }
+
+  .slide.darkmode .card-title {
+    color: #ffffff;
+  }
+
+  .card p, .card li {
+    font-size: 18px;
+    color: var(--color-slate-700);
+    line-height: 1.5;
+  }
+
+  .slide.darkmode .card p, .slide.darkmode .card li {
+    color: var(--color-slate-300);
+  }
+
+  ul.bullet-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  ul.bullet-list li {
+    font-size: 20px;
+    color: var(--color-slate-700);
+    line-height: 1.5;
+  }
+	ol {
+		padding-left: 1.5rem
+	}
+	ol li {
+		font-size: 20px;
+		color: var(--color-slate-700);
+		line-height: 1.5;
+		margin-bottom: .3rem
+	}
+	dfn {
+		font-style: normal;
+		font-weight: 700
+	}
+
+  .slide.darkmode ul.bullet-list li {
+    color: var(--color-slate-300);
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: var(--color-blue-100);
+    color: var(--color-blue-800);
+    align-self: flex-start;
+  }
+
+  .pillar-card {
+    background-color: #ffffff;
+    border: 1px solid var(--color-slate-200);
+    border-top: 4px solid var(--color-blue-600);
+    border-radius: 6px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+
+  .pillar-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--color-slate-900);
+  }
+
+  .pillar-desc {
+    font-size: 18px;
+    color: var(--color-slate-700);
+    line-height: 1.4;
+  }
+
+  .title-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    height: 100%;
+  }
+
+  .title-header {
+    border-left: 6px solid var(--color-blue-500);
+    padding-left: 1.5rem;
+  }
+
+  .title-header h1 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+  }
+
+  .title-header p {
+    font-size: 24px;
+    color: var(--color-blue-500);
+    margin-top: 0.5rem;
+    font-weight: 600;
+  }
+
+  .title-meta-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    background-color: var(--color-slate-800);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--color-slate-700);
+  }
+
+  .meta-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .meta-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-blue-500);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .meta-value {
+    font-size: 20px;
+    color: var(--color-slate-200);
+    line-height: 1.4;
+  }
+</style>
+ </head>
+ <body>
+
+  <!-- Slide 1: Cover -->
+  <section class="slide darkmode" id="slide-1">
+   <div class="title-cover">
+    <div class="title-header">
+     <h1>W3C Draft Equity Maturity Model (EMM)</h1>
+     <p><a href="https://www.w3.org/community/equity/" target="_blank" rel="noopener">W3C Equity Community Group</a> &bull; TPAC 2026 Session</p>
+    </div>
+    <div class="title-meta-container">
+     <div class="meta-row">
+      <span class="meta-label">Group Chairs</span>
+      <span class="meta-value">Beckett LeClair &amp; Jennifer Strickland</span>
+     </div>
+     <div class="meta-row">
+      <span class="meta-label">Key Contributors</span>
+      <span class="meta-value">Bruce Bailey, Benjamin Gray, Jessie Hoong, Tzviya Siegman</span>
+     </div>
+     <div class="meta-row">
+      <span class="meta-label">Date &amp; Context</span>
+      <span class="meta-value">October 2026 &bull; Three Years of Research &amp; Community Collaboration</span>
+     </div>
+    </div>
+   </div>
+   <div class="slide-footer">
+    <span>W3C Equity Community Group</span>
+    <span>Slide 1 of 12</span>
+   </div>
+  </section>
+
+  <!-- Slide 2: Context & History -->
+  <section class="slide" id="slide-2">
+   <div class="slide-header">
+    <div class="slide-eyebrow">Background &amp; Evolution</div>
+    <h2 class="slide-title">Three Years of Dedicated Research</h2>
+   </div>
+   <div class="slide-body">
+    <div class="grid-3">
+     <div class="card">
+      <span class="badge">Origin</span>
+      <h3 class="card-title">Foundational Research</h3>
+      <p>Multi-disciplinary research across global frameworks, standards, and academic studies over the past three years.</p>
+     </div>
+     <div class="card">
+      <span class="badge">Alignment</span>
+      <h3 class="card-title">Evolving from AMM</h3>
+      <p>Initiated as an expansion of the W3C Accessibility Maturity Model (AMM) to address broader systemic digital equity.</p>
+     </div>
+     <div class="card">
+      <span class="badge">Scope</span>
+      <h3 class="card-title">Integrative Governance</h3>
+      <p>Extends governance past accessibility to encompass Internationalization, Privacy, Security, Performance, and Sustainability.</p>
+     </div>
+    </div>
+   </div>
+   <div class="slide-footer">
+    <span>W3C Draft Equity Maturity Model (EMM)</span>
+    <span>Slide 2 of 12</span>
+   </div>
+  </section>
+
+  <!-- Slide 3: Purpose & Scope -->
+  <section class="slide" id="slide-3">
+   <div class="slide-header">
+    <div class="slide-eyebrow">Mission &amp; Core Purpose</div>
+    <h2 class="slide-title">Why an Equity Maturity Model?</h2>
+   </div>
+   <div class="slide-body">
+    <div class="grid-3">
+     <div class="card">
+      <h3 class="card-title">Evaluative Framework</h3>
+      <p>Provides W3C working groups, public sector organizations, and enterprise teams a structured mechanism to evaluate web initiatives for equity considerations.</p>
+     </div>
+     <div class="card">
+      <h3 class="card-title">Avenues for Maturity</h3>
+      <p>Establishes actionable pathways to advance organizational maturity across policies, business operations, and organizational culture.</p>
+     </div>
+     <div class="card">
+      <h3 class="card-title">Shift-Left Methodology</h3>
+      <p>Moves beyond post-hoc compliance audits toward preventing systemic harms, barriers, and inequities at the architectural phase.</p>
+     </div>
+    </div>
+   </div>
+   <div class="slide-footer">
+    <span>W3C Draft Equity Maturity Model (EMM)</span>
+    <span>Slide 3 of 12</span>
+   </div>
+  </section>
+
+  <!-- Slide 4: Guiding Principles / W3C Pillars -->
+  <section class="slide" id="slide-4">
+   <div class="slide-header">
+    <div class="slide-eyebrow">Cross-W3C Integration</div>
+    <h2 class="slide-title">Grounding Principles Across Web Domains</h2>
+   </div>
+   <div class="slide-body">
+	   
+	   <ol>
+		   <li>
+			   <dfn>Accessibility</dfn> Ensuring full usability for disabled individuals
+		   </li>
+		   <li>
+			   <dfn>Equity</dfn> Addressing systemic power &amp; historical imbalances
+		   </li>
+		   <li>
+			   <dfn>i18n</dfn> Global linguistic &amp; cultural web inclusion
+		   </li>
+		   <li>
+			   <dfn>Privacy</dfn> Protecting user agency &amp; data autonomy
+		   </li>
+		   <li>
+			   <dfn>Security</dfn> Safeguarding against harm &amp; vulnerabilities
+		   </li>
+		   <li>
+			   <dfn>Web Performance</dfn> Optimizing access on low-bandwidth ICT
+		   </li>
+		   <li>
+			   <dfn>Web Sustainability</dfn> Minimizing environmental &amp; carbon footprint
+		   </li>
+	   </ol>
+
+   </div>
+   <div class="slide-footer">
+    <span>W3C Draft Equity Maturity Model (EMM)</span>
+    <span>Slide 4 of 12</span>
+   </div>
+  </section>
+
+  <!-- Slide 5: Research Frameworks (Government & Health) -->
+  <section class="slide" id="slide-5">
+   <div class="slide-header">
+    <div class="slide-eyebrow">Research Grounding (Part 1)</div>
+    <h2 class="slide-title">Government &amp; Health Equity Frameworks</h2>
+   </div>
+   <div class="slide-body">
+    <div class="grid-2">
+     <div class="card">
+      <span class="badge">Federal / Public Policy</span>
+      <h3 class="card-title">The MITRE Corporation Equity Assessment Framework</h3>
+      <p>Structured 4-phase framework centering underserved communities through qualitative/quantitative methods, citizen experts, and barrier resolution planning.</p>
+     </div>
+     <div class="card">
+      <span class="badge">Global Public Health</span>
+      <h3 class="card-title">World Health Organization Health Equity Policy Tool</h3>
+      <p>Multisectoral action areas tracking universal access, social protection, living conditions, and human capital aligned with UN SDGs.</p>
+     </div>
+    </div>
+   </div>
+   <div class="slide-footer">
+    <span>W3C Draft Equity Maturity Model (EMM)</span>
+    <span>Slide 5 of 12</span>
+   </div>
+  </section>
+
+  <!-- Slide 6: Research Frameworks (Corporate & Community) -->
+  <section class="slide" id="slide-6">
+   <div class="slide-header">
+    <div class="slide-eyebrow">Research Grounding (Part 2)</div>
+    <h2 class="slide-title">Corporate &amp; Municipal Frameworks</h2>
+   </div>
+   <div class="slide-body">
+    <div class="grid-2">
+     <div class="card">
+      <span class="badge">Global Business</span>
+      <h3 class="card-title">World Economic Forum Racial &amp; Ethnic Equity Framework</h3>
+      <p>10 Guiding Principles across core business functions (Leadership, Product Design, Algorithmic Fairness, Supply Chain) with self-assessment scoring.</p>
+     </div>
+     <div class="card">
+      <span class="badge">Municipal Governance</span>
+      <h3 class="card-title">City of Philadelphia <br>Engagement Toolkit</h3>
+      <p>Centers power dynamics, lived experience, essential accommodations, and shared decision-making with historically marginalized communities.</p>
+     </div>
+    </div>
+   </div>
+   <div class="slide-footer">
+    <span>W3C Draft Equity Maturity Model (EMM)</span>
+    <span>Slide 6 of 12</span>
+   </div>
+  </section>
+
+  <!-- Slide 7: Research Frameworks (Evaluation & Human Rights) -->
+  <section class="slide" id="slide-7">
+   <div class="slide-header">
+    <div class="slide-eyebrow">Research Grounding (Part 3)</div>
+    <h2 class="slide-title">Evaluation, Rights &amp; AI Frameworks</h2>
+   </div>
+   <div class="slide-body">
+    <div class="grid-3">
+     <div class="card">
+      <span class="badge">Philanthropy &amp; Evaluation</span>
+      <h3 class="card-title">Equitable Evaluation Framework™</h3>
+      <p>Challenges singular definitions of truth/evidence; positions evaluation in service of equity and structural historical analysis.</p>
+     </div>
+     <div class="card">
+      <span class="badge">Human Rights</span>
+      <h3 class="card-title">Danish Institute HRIA</h3>
+      <p>Human Rights Impact Assessment methodology scoping business impacts, severity, non-discrimination, and participatory monitoring.</p>
+     </div>
+     <div class="card">
+      <span class="badge">AI &amp; Emerging Tech</span>
+      <h3 class="card-title">HUDERIA &amp; Child Rights</h3>
+      <p>Assessing AI systems for impacts on Human Rights, Democracy, and Rule of Law alongside rights-respecting design codes.</p>
+     </div>
+    </div>
+   </div>
+   <div class="slide-footer">
+    <span>W3C Draft Equity Maturity Model (EMM)</span>
+    <span>Slide 7 of 12</span>
+   </div>
+  </section>
+
+  <!-- Slide 8: The Equity Assessment Process (Phases 1-2) -->
+  <section class="slide" id="slide-8">
+   <div class="slide-header">
+    <div class="slide-eyebrow">Methodology Lifecycle</div>
+    <h2 class="slide-title">The Assessment Process: Phases 1 &amp; 2</h2>
+   </div>
+   <div class="slide-body">
+    <div class="grid-2">
+     <div class="card">
+      <span class="badge">Phase 1</span>
+      <h3 class="card-title">Select Program &amp; Define Team</h3>
+      <ul class="bullet-list">
+       <li>Identify criteria-based program selection (urgency, impact).</li>
+       <li>Stand up multidisciplinary, inclusive team including Citizen Experts.</li>
+       <li>Proactively log and mitigate historical/community engagement risks.</li>
+      </ul>
+     </div>
+     <div class="card">
+      <span class="badge">Phase 2</span>
+      <h3 class="card-title">Define Equity Foundations</h3>
+      <ul class="bullet-list">
+       <li>Document core outcomes, theory of change, and target populations.</li>
+       <li>Define Equity for the specific context (Procedural, Access, Outcome).</li>
+       <li>Co-create Personas and Journey Maps with lived-experience proxies.</li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <div class="slide-footer">
+    <span>W3C Draft Equity Maturity Model (EMM)</span>
+    <span>Slide 8 of 12</span>
+   </div>
+  </section>
+
+  <!-- Slide 9: The Equity Assessment Process (Phases 3-4) -->
+  <section class="slide" id="slide-9">
+   <div class="slide-header">
+    <div class="slide-eyebrow">Methodology Lifecycle</div>
+    <h2 class="slide-title">The Assessment Process: Phases 3 &amp; 4</h2>
+   </div>
+   <div class="slide-body">
+    <div class="grid-2">
+     <div class="card">
+      <span class="badge">Phase 3</span>
+      <h3 class="card-title">Determine Inequity &amp; Barriers</h3>
+      <ul class="bullet-list">
+       <li>Conduct quantitative analysis to highlight lifecycle disparities.</li>
+       <li>Conduct qualitative analysis (Service Blueprints) to identify root barriers.</li>
+       <li>Expose structural misalignment in policy and technical delivery.</li>
+      </ul>
+     </div>
+     <div class="card">
+      <span class="badge">Phase 4</span>
+      <h3 class="card-title">Findings &amp; Resolution Plan</h3>
+      <ul class="bullet-list">
+       <li>Codify observations into preliminary insights without bias.</li>
+       <li>Verify findings directly with impacted Citizen Experts.</li>
+       <li>Co-design actionable Resolution Plan with budget and policy steps.</li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <div class="slide-footer">
+    <span>W3C Draft Equity Maturity Model (EMM)</span>
+    <span>Slide 9 of 12</span>
+   </div>
+  </section>
+
+  <!-- Slide 10: Centering Lived Experience -->
+  <section class="slide" id="slide-10">
+   <div class="slide-header">
+    <div class="slide-eyebrow">Community Co-Design</div>
+    <h2 class="slide-title">Centering Lived Experience (Lundy Model)</h2>
+   </div>
+   <div class="slide-body">
+    <div class="grid-4">
+     <div class="card">
+      <h3 class="card-title">1. Space</h3>
+      <p>Impacted people must be given safe, inclusive opportunities to form and express views.</p>
+     </div>
+     <div class="card">
+      <h3 class="card-title">2. Voice</h3>
+      <p>Impacted people must be facilitated and supported to express their views freely.</p>
+     </div>
+     <div class="card">
+      <h3 class="card-title">3. Audience</h3>
+      <p>The view must be listened to by those with decision-making power.</p>
+     </div>
+     <div class="card">
+      <h3 class="card-title">4. Influence</h3>
+      <p>The view must be acted upon appropriately, with feedback provided on decisions.</p>
+     </div>
+    </div>
+   </div>
+   <div class="slide-footer">
+    <span>W3C Draft Equity Maturity Model (EMM)</span>
+    <span>Slide 10 of 12</span>
+   </div>
+  </section>
+
+  <!-- Slide 11: EMM Structural Architecture -->
+  <section class="slide" id="slide-11">
+   <div class="slide-header">
+    <div class="slide-eyebrow">Model Structure</div>
+    <h2 class="slide-title">EMM Dimensions &amp; Maturity Stages</h2>
+   </div>
+   <div class="slide-body">
+    <div class="grid-2">
+     <div class="card">
+      <h3 class="card-title">7 Organizational Dimensions</h3>
+      <ol class="bullet-list">
+       <li><dfn>Communications.</dfn> Inclusive framing &amp; accessible channels</li>
+       <li><dfn>Knowledge &amp; Skills.</dfn> Workforce capacity &amp; role training</li>
+       <li><dfn>Support.</dfn> Accommodations &amp; user support systems</li>
+       <li><dfn>ICT Dev Lifecycle.</dfn> Design, code, &amp; release gates</li>
+       <li><dfn>Personnel.</dfn> Hiring, recruiting, &amp; ERG involvement</li>
+       <li><dfn>Procurement.</dfn> Vendor standards &amp; contract language</li>
+       <li><dfn>Culture.</dfn> Values, leadership, &amp; organizational mindsets</li>
+      </ol>
+     </div>
+     <div class="card">
+      <h3 class="card-title">4 Cumulative Maturity Stages</h3>
+      <ol class="bullet-list">
+       <li><dfn>Inactive.</dfn> No recognition or active engagement</li>
+       <li><dfn>Launch.</dfn> Recognized need; ad-hoc or siloed planning initiated</li>
+       <li><dfn>Integrate.</dfn> Structured roadmap &amp; repeatable processes active</li>
+       <li><dfn>Optimize.</dfn> Fully embedded, continuously evaluated &amp; refined</li>
+      </ol>
+     </div>
+    </div>
+   </div>
+   <div class="slide-footer">
+    <span>W3C Draft Equity Maturity Model (EMM)</span>
+    <span>Slide 11 of 12</span>
+   </div>
+  </section>
+
+  <!-- Slide 12: Next Steps & Discussion -->
+  <section class="slide darkmode" id="slide-12">
+   <div class="title-cover">
+    <div class="title-header">
+     <h1>Join the Work &amp; Next Steps</h1>
+     <p>Help shape the future of the W3C Equity Maturity Model</p>
+    </div>
+    <div class="grid-2">
+     <div class="card">
+      <h3 class="card-title">Current TPAC Goals</h3>
+      <ul class="bullet-list">
+       <li>Review proposed dimension expansions with W3C groups.</li>
+       <li>Refine proof points and alignment across W3C guidelines.</li>
+       <li>Gather feedback on community engagement methodologies.</li>
+      </ul>
+     </div>
+     <div class="card">
+      <h3 class="card-title">Get Involved</h3>
+      <ul class="bullet-list">
+       <li><strong>Group Homepage:</strong> <a href="https://www.w3.org/community/equity/" target="_blank" rel="noopener">w3.org/community/equity/</a></li>
+       <li><strong>GitHub Repo:</strong> <a href="https://github.com/w3c-cg/equity-cg" target="_blank" rel="noopener">github.com/w3c-cg/equity-cg</a></li>
+       <li><strong>Chairs:</strong> Beckett LeClair &amp; Jennifer Strickland</li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <div class="slide-footer">
+    <span>W3C Equity Community Group</span>
+    <span>Slide 12 of 12</span>
+   </div>
+  </section>
+
+ </body>
+</html>
