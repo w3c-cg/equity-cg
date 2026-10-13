@@ -285,6 +285,15 @@ Long-term sustainability of equity initiatives requires tying organizational tar
   <li id="ohchr2012">United Nations Office of the High Commissioner for Human Rights. (2012). The corporate responsibility to respect human rights: An interpretive guide (HR/PUB/12/02). United Nations. <a target="_blank" rel="noopener" href="https://www.ohchr.org/sites/default/files/Documents/Publications/HR.PUB.12.2_En.pdf">https://www.ohchr.org/sites/default/files/Documents/Publications/HR.PUB.12.2_En.pdf</a></li>
 </ul>
 
+## Contributors
+
+- Bruce Bailey
+- Benjamin Gray
+- Jessie Hoong
+- Beckett LeClair
+- Tzviya Siegman
+- Jennifer Strickland
+
 
 ## Bibliography
 
