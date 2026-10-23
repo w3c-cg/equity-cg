@@ -2,6 +2,10 @@
 
 Public Site: [Equity Community Group](https://www.w3.org/community/equity/)
 
+## Current Equity Maturity Model Draft
+
+[https://github.com/w3c-cg/equity-cg/tree/main/maturity_model](https://github.com/w3c-cg/equity-cg/tree/main/maturity_model)
+
 ## To Do
 
 - Done - Collect [definitions of equity](https://github.com/w3c-cg/equity-cg/tree/main/definition-work)
