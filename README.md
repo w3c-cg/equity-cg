@@ -2,6 +2,10 @@
 
 Public Site: [Equity Community Group](https://www.w3.org/community/equity/)
 
+## 2026 TPAC Slides
+
+[https://github.com/w3c-cg/equity-cg/blob/main/2026_TPAC.html](https://github.com/w3c-cg/equity-cg/blob/main/2026_TPAC.html)
+
 ## Current Equity Maturity Model Draft
 
 [https://github.com/w3c-cg/equity-cg/tree/main/maturity_model](https://github.com/w3c-cg/equity-cg/tree/main/maturity_model)
