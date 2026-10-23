@@ -2,6 +2,57 @@
 
 ## 2026 Minutes
 
+### Agenda for 12 Oct 2026
+- Attendees: Jen Strickland, Beckett LeClaire, Jessie Hoong
+
+#### TPAC tasks
+- Meet on 26 Oct (Mon) to go run through TPAC slides
+- Distribute slides for talking points - Jen updated our meeting description to include a link
+- To fill in strategy map (async, for participants that aren’t present in Equity sync), for influence and persuasion esp for TPAC
+- Purpose: For principles of influence and persuasion and the fostering collective leadership and followership, in plain language
+- At some point we may consider going through some additional strategic planning activities to align ourselves and be able to be more deliberate in our actions.
+- Case studies: Jen drafted an aspirational, fictional scenario. Jessie drafted two based on real activities in Singapore. Beckett will draft one for EdTech.
+
+### Agenda for 28 Sep 2026
+- Attendees: Jen Strickland, Beckett LeClaire, Jessie Hoong
+- Reviewed the recent additions and comments to the document
+- To reconfigure doc to have more logical flow - edit on github from here on out please. Got Jessie added (Jen messaged Dom).
+[Do this asynchronously, please] strategy plan activity (I need to add people individually, so please let me know if you need access. Beckett and Jessie are added.)
+- The W3C Note Track - This is what I believe we are aiming for. 
+- AI Overview: A W3C Note is a published public record of an idea, comment, use case, or best practice that is not part of the official W3C Recommendation track standards. Understanding the W3C Note Track:
+- Purpose: Documents information like use cases, background research, or best practices rather than core technical standards.
+- Endorsement: Publishing a Note does not mean the W3C officially endorses the ideas inside; they are meant to promote discussion.
+- Draft vs. Group Note: Draft Notes are early iterations from working groups that have not received formal group consensus or final publication approval.
+
+#### Key Stages and Types
+- Draft Notes: Early-stage work-in-progress documents produced by groups like Working Groups or the TAG, subject to change without formal review.
+- Group Notes: Stable reference documents published when work ends or to provide information, though still lacking formal standard status.
+- Statements: Endorsed publications that have achieved formal W3C backing after addressing community issues.
+- Anticipating / Managing resistance to the EMM, we need good allies in W3C. New Threats & Harms should be useful. Jen can point to names.
+
+#### Navigating Strategic Politics Stakeholder Questions Inventory
+- With whom are we familiar - who readily comes to mind?
+- Who can impact the decision - and who is impacted by it?
+- Whose cooperation will definitely be needed at this stage?
+- Whose cooperation may (or may not) be necessary at this stage?
+- Who can block the decision? Who can support the decision?
+- Who might block? Who might support?
+
+#### Submit a mini-workshop, “presenting about the positive or negative impact of GenAI on society”
+- Beckett to draft first idea for session, Jessie can contribute as well
+- Beckett would not be on-site for this session, Jessie would be
+
+#### TPAC plan
+- Will run a TPAC session with Jen dialling in. 
+- Jen will make a session draft we can flesh out on github. 
+- Jessie located slide templates.
+#### To Do
+- Review and contribute to strategy map
+- Jen - draft slides for our TPAC session
+- Jessie & Jen - review Beckett’s mini-workshop proposal - communicate async or in Slack
+- Use Cases / Case Studies - each of us draft a use case
+- Review the EMM in GitHub
+
 ### Agenda for 14 Sep 2026
 - Attendees: Jen Strickland, Jessie Hoong
 - Reviewed content of the EMM draft
