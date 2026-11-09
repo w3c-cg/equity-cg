@@ -2,6 +2,29 @@
 
 ## 2026 Minutes
 
+### Agenda for 27 Oct 2026 (TPAC Day 2)
+- Attendees: Jen Strickland, Beckett LeClair, Jessie Hoong, Keng, Jeff Adams, Jeffery Yasskin, Mitchell Evan, Sarven Capadisli
+
+- IRC minutes: [https://www.w3.org/2026/10/27-equity-minutes.html](https://www.w3.org/2026/10/27-equity-minutes.html)
+
+#### Introductions around the table
+- Jennifer gave an overview of the group background and aims
+- [Presentation slides - EMM (Equity Maturity Model)](https://github.com/w3c-cg/equity-cg/blob/main/2026_TPAC.html) also available to view online at [https://www.jenstrickland.design/clients/equity/Overview.html](https://www.jenstrickland.design/clients/equity/Overview.html)
+- Key contributors
+- What the past three years have looked like for the group, why an EMM is needed
+- Grounding principles across Web domains
+- Sharing on the models ground the research. MITRE frameworks as a starting point, WHO Equity Policy tool, and Equitable evaluation frameworks, Danish Institute HRIA, HUDERIA & Child rights. How these tools intersect with web projects 
+- How we expect equity maturity model to apply in practice
+- Selecting program and define teams: addressing barriers by having an inclusive groups, including citizen experts.
+- How we should define the types of equity foundations
+- Assessment process - phase 3. Quantitative and qualitative analysis, and exposing misalignment in policy
+- Phase 4: Working with citizens to find resolution and to aim for broad consensus
+- Lundy Model: Originally to demonstrate range of success and failure in initiative for child participation
+- EMM Dimensions and Maturity Stages - 7 organisational dimensions (comms, knowledge & skills, support, ICT dev lifecycle, personnel, procurement, culture) and 4 stages of maturity (inactive, launched, integrated, optimised)
+- Pitched attendees to join the group and help shape the future of the EMM
+- Current goals for this week: review proposed dimension expansions with W3C groups, refine proof points and alignment across W3C guidelines, and gather feedback on community engagement methodologies
+
+
 ### Agenda for 12 Oct 2026
 - Attendees: Jen Strickland, Beckett LeClaire, Jessie Hoong
 
